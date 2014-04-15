@@ -5,6 +5,7 @@ public class Customer {
 	private String cname;
 	private String email;
 	private long phone;
+	private long phone1;
 
 	private String city;
 	
@@ -48,6 +49,13 @@ public class Customer {
 
 	public void setPhone(long phone) {
 		this.phone = phone;
+	}
+	public long getPhone1() {
+		return phone1;
+	}
+
+	public void setPhone1(long phone1) {
+		this.phone1 = phone1;
 	}
 
 	public String getCity() {
