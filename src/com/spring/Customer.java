@@ -11,11 +11,12 @@ public class Customer {
 	
 	public Customer(){}
 
-	public Customer(String cname, String email, long phone, String city) {
+	public Customer(String cname, String email, long phone1, long phone, String city) {
 		super();
 		this.cname = cname;
 		this.email = email;
 		this.phone = phone;
+		this.phone1 = phone1;
 		this.city = city;
 	}
 
