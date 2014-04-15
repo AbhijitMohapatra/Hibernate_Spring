@@ -6,7 +6,7 @@ public class Customer {
 	private String email;
 	private long phone;
 	private long phone1;
-	private long phone3;
+	private long phone22;
 
 	private String city;
 	
